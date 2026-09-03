@@ -1,0 +1,17 @@
+# Build output and local runtime data
+[Bb]in/
+[Oo]bj/
+*.db
+*.db-shm
+*.db-wal
+
+# Local secrets: use the checked-in example as a template or .NET User Secrets.
+src/SecBank.CardRequests.Api/appsettings.Development.json
+
+# IDE and OS files
+.vs/
+.vscode/
+.DS_Store
+
+# Generated deliverables are retained; their temporary source artefacts are not.
+deliverables/*.html
